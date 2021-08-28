@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.core.widget.NestedScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:theme="@style/FontSetting"
+        tools:context=".ContactsFragment">
+
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+
+            <TextView android:textAppearance="@style/TextAppearance.AppCompat.Large" android:textColor="#971b2a" android:gravity="start" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="15dp" android:text="Help Desk" android:fontFamily="@font/nunito_extrabold"/>
+            <androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="200dp">
+                <TextView android:textAppearance="@style/TextAppearance.AppCompat.Large" android:textColor="#971b2a" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="15dp" android:text="Mohit Kumar"/>
+                <TextView android:textAppearance="@style/TextAppearance.AppCompat.Medium" android:textColor="@color/grey" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="50dp" android:text="General Secretary" android:layout_marginStart="15dp" android:layout_marginEnd="15dp"/>
+                <TextView android:textAppearance="@style/TextAppearance.AppCompat.Medium" android:textColor="@color/Black" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="100dp" android:text="generalsec@iittp.ac.in" android:drawablePadding="15dp" android:textIsSelectable="true"
+                    android:layout_marginStart="15dp" android:layout_marginEnd="15dp"
+                    app:drawableLeftCompat="@drawable/ic_email_black_24dp" />
+                <TextView android:textAppearance="@style/TextAppearance.AppCompat.Medium" android:textColor="@color/Black" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="150dp" android:text="7675039900" android:drawablePadding="15dp" android:textIsSelectable="true" app:drawableLeftCompat="@drawable/ic_phone_iphone_black_24dp" android:layout_marginStart="15dp" android:layout_marginEnd="15dp"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="200dp" android:layout_marginTop="15dp">
+                <TextView android:textAppearance="@style/TextAppearance.AppCompat.Large" android:textColor="#971b2a" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="15dp" android:text="Sharath Babu"/>
+                <TextView android:textAppearance="@style/TextAppearance.AppCompat.Medium" android:textColor="@color/grey" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="50dp" android:text="Research Affairs Secretary" android:layout_marginStart="15dp" android:layout_marginEnd="15dp"/>
+                <TextView android:textAppearance="@style/TextAppearance.AppCompat.Medium" android:textColor="@color/Black" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="100dp" android:text="researchaffairs.sec@iittp.ac.in" android:drawablePadding="15dp" android:textIsSelectable="true" app:drawableLeftCompat="@drawable/ic_email_black_24dp" android:layout_marginStart="15dp" android:layout_marginEnd="15dp"/>
+                <TextView android:textAppearance="@style/TextAppearance.AppCompat.Medium" android:textColor="@color/Black" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="150dp" android:text="8919945613" android:drawablePadding="15dp" android:textIsSelectable="true" app:drawableLeftCompat="@drawable/ic_phone_iphone_black_24dp" android:layout_marginStart="15dp" android:layout_marginEnd="15dp"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="194dp" android:layout_marginTop="15dp" android:layout_marginBottom="100dp">
+                <TextView android:textAppearance="@style/TextAppearance.AppCompat.Large" android:textColor="#971b2a" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="15dp" android:text="Pratik Agrawalla"/>
+                <TextView android:textAppearance="@style/TextAppearance.AppCompat.Medium" android:textColor="@color/grey" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="50dp" android:text="Volunteer" android:layout_marginStart="15dp" android:layout_marginEnd="15dp"/>
+                <TextView android:textAppearance="@style/TextAppearance.AppCompat.Medium" android:textColor="@color/Black" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="100dp" android:text="cs16b020@iittp.ac.in" android:drawablePadding="15dp" app:drawableLeftCompat="@drawable/ic_email_black_24dp" android:layout_marginStart="15dp" android:layout_marginEnd="15dp"/>
+                <TextView android:textAppearance="@style/TextAppearance.AppCompat.Medium" android:textColor="@color/Black" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="150dp" android:text="7978849858" android:drawablePadding="15dp" app:drawableLeftCompat="@drawable/ic_phone_iphone_black_24dp" android:layout_marginStart="15dp" android:layout_marginEnd="15dp"/>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <!--        <androidx.cardview.widget.CardView android:layout_gravity="bottom" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="60dp" android:foreground="?attr/selectableItemBackground">-->
+    <!--            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="3">-->
+    <!--                <TextView android:textColor="#000" android:gravity="center" android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/f1" android:focusable="true" android:clickable="true" android:layout_width="0dp" android:layout_height="match_parent" android:foreground="?attr/selectableItemBackground" android:text="@string/s19" android:drawableTop="@drawable/ic_home" android:layout_weight="1"/>-->
+    <!--                <TextView android:textColor="#000" android:gravity="center" android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/f2" android:focusable="true" android:clickable="true" android:layout_width="0dp" android:layout_height="match_parent" android:foreground="?attr/selectableItemBackground" android:text="@string/s20" android:drawableTop="@drawable/ic_info" android:layout_weight="1"/>-->
+    <!--                <TextView android:textColor="#971b2a" android:gravity="center" android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/f3" android:focusable="true" android:clickable="true" android:layout_width="0dp" android:layout_height="match_parent" android:foreground="?attr/selectableItemBackground" android:text="@string/s21" android:drawableTop="@drawable/ic_contacts" android:layout_weight="1"/>-->
+    <!--            </LinearLayout>-->
+    <!--        </androidx.cardview.widget.CardView>-->
+</FrameLayout>

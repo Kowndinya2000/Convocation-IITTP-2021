@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:foreground="?attr/selectableItemBackground">
+        <ImageView
+            android:background="@drawable/left_button"
+            android:focusable="true"
+            android:clickable="true"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="10dp"
+            android:foreground="?attr/selectableItemBackground"
+            android:onClick="left"
+            android:contentDescription="@string/hi"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#971b2a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="About IIT Tirupati"
+            android:fontFamily="@font/nunito_extrabold"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="70dp">
+            <ImageView android:id="@+id/im1" android:layout_width="match_parent" android:layout_height="250dp" android:src="@drawable/iitcampus" android:contentDescription="@string/hi"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Double tap to Zoom and slide to move"
+                android:textStyle="italic"
+                android:textColor="@color/grey"
+                android:fontFamily="@font/nunito_semibold"
+                />
+            <TextView android:fontFamily="@font/nunito_semibold" android:textAppearance="@style/TextAppearance.AppCompat.Medium" android:textColor="#000" android:id="@+id/t1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="15dp" android:text=""/>
+        </LinearLayout>
+    </FrameLayout>
+</androidx.core.widget.NestedScrollView>
