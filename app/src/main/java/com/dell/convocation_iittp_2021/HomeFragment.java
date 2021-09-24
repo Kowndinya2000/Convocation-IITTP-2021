@@ -1,21 +1,16 @@
 package com.dell.convocation_iittp_2021;
 
 import android.content.Intent;
-import android.media.Image;
 import android.net.Uri;
 import android.os.Bundle;
 
+import androidx.appcompat.app.AppCompatDelegate;
 import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
-import android.widget.TextView;
-
-import com.etebarian.meowbottomnavigation.MeowBottomNavigation;
-import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -58,6 +53,7 @@ public class HomeFragment extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         if (getArguments() != null) {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
@@ -68,11 +64,21 @@ public class HomeFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
+
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
         View view = inflater.inflate(R.layout.fragment_home, container, false);
-        CardView cardView = view.findViewById(R.id.c12);
-        cardView.setOnClickListener(new View.OnClickListener() {
+
+        CardView cardView1 = view.findViewById(R.id.c1);
+        cardView1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), DirectorsReport.class);
+                Intent intent = new Intent(getActivity(), ConvocationProgramme.class);
+                startActivity(intent);
+            }
+        });
+        CardView cardView2 = view.findViewById(R.id.c2);
+        cardView2.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), ChiefGuest.class);
                 startActivity(intent);
             }
         });
@@ -90,11 +96,17 @@ public class HomeFragment extends Fragment {
                 startActivity(intent);
             }
         });
-
+        CardView cardView5 = view.findViewById(R.id.c5);
+        cardView5.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), GraduandsList.class);
+                startActivity(intent);
+            }
+        });
         CardView cardView6 = view.findViewById(R.id.c6);
         cardView6.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent = new Intent("android.intent.action.VIEW", Uri.parse("https://iittp.ac.in"));
+                Intent intent = new Intent("android.intent.action.VIEW", Uri.parse("https://iittp.ac.in/convocation2021"));
                 startActivity(intent);
             }
         });
@@ -102,6 +114,13 @@ public class HomeFragment extends Fragment {
         cardView7.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(getActivity(), AboutIITTirupati.class);
+                startActivity(intent);
+            }
+        });
+        CardView cardView8 = view.findViewById(R.id.c8);
+        cardView8.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), InstituteAwards.class);
                 startActivity(intent);
             }
         });
@@ -116,6 +135,27 @@ public class HomeFragment extends Fragment {
         cardView10.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(getActivity(), Pledge.class);
+                startActivity(intent);
+            }
+        });
+        CardView cardView11 = view.findViewById(R.id.c11);
+        cardView11.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), ConvocationCommittee.class);
+                startActivity(intent);
+            }
+        });
+        CardView cardView12 = view.findViewById(R.id.c12);
+        cardView12.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), DirectorsReport.class);
+                startActivity(intent);
+            }
+        });
+        CardView cardView22 = view.findViewById(R.id.c22);
+        cardView22.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), ChiefGuestsAddress.class);
                 startActivity(intent);
             }
         });

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Convocation-IITTP-2021</string>
+    <string name="app_name">IIT Tirupati Convocation</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="abc_action_bar_home_description">Navigate home</string>
@@ -95,7 +95,7 @@
     <string name="s11">Institute Awards</string>
     <string name="s12">Our Logo</string>
     <string name="s13">Convocation Pledge</string>
-    <string name="s14">Convocation Committee</string>
+    <string name="s14">Convocation Committees</string>
     <string name="s15">Director\'s Report</string>
     <string name="s16">Prof. K. N. Satyanarayana Director, IIT Tirupati</string>
     <string name="s17">Convocation Attire</string>
@@ -105,8 +105,8 @@
     <string name="s20">Info</string>
     <string name="s21">Contact</string>
     <string name="s3">About the Chief Guest</string>
-    <string name="s4">Shri Ramesh Pokhriyal ‘Nishank’ Honourable Minister of Human Resource Development Government of India</string>
-    <string name="s44">Honourable Minister for Education\10Government of Andhra Pradesh</string>
+    <string name="s44">“Networks amplify your power of reach and multiplies the opportunities that chance brings to you.”</string>
+    <string name="s4">Chief Executive Officer of Saint-Gobain Asia Pacific and India Region \n Member of Global Executive Committee of Saint-Gobain, France</string>
     <string name="s5">Board of Governors</string>
     <string name="s6">Senate</string>
     <string name="s7">Graduands List</string>
@@ -120,5 +120,5 @@
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="title">Title</string>
     <string name="main_heading">Celebrating the 1st Convocation \\nIndian Institute of Technology Tirupat \n13th August, 2019</string>
-
+    <string name="tap_here">tap here</string>
 </resources>

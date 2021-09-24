@@ -3,7 +3,9 @@
     <androidx.core.widget.NestedScrollView android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
         <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
             <ImageView android:layout_gravity="center" android:layout_width="96dp" android:layout_height="96dp" android:layout_marginTop="10dp" android:src="@drawable/iit" android:contentDescription="@string/hi"/>
-            <FrameLayout android:paddingBottom="15dp" android:layout_width="match_parent" android:layout_height="300dp">
+            <FrameLayout android:paddingBottom="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="300dp">
                 <ImageView android:background="#971b2a"
                     android:layout_width="match_parent"
                     android:layout_height="200dp"
@@ -17,10 +19,24 @@
                     android:layout_marginTop="30dp"
                     android:fontFamily="@font/nunito_semibold"
                     android:gravity="top|center_vertical|center_horizontal|center"
-                    android:text="Celebrating the 1ˢᵗ Convocation\nIndian Institute of Technology Tirupati\n13ᵗʰ August, 2019"
+                    android:text="2ⁿᵈ and 3ʳᵈ (Joint) Convocation\nIndian Institute of Technology Tirupati\n25ᵗʰ September, 2021"
                     android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                     android:textColor="@color/White" />
-                <androidx.cardview.widget.CardView android:layout_gravity="bottom" android:id="@+id/c1" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="140dp" android:layout_marginBottom="15dp" android:foreground="?attr/selectableItemBackground" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" app:cardBackgroundColor="#fff" app:cardCornerRadius="15dp" app:cardElevation="4dp">
+                <androidx.cardview.widget.CardView
+                    android:layout_gravity="bottom"
+                    android:id="@+id/c1"
+                    android:focusable="true"
+                    android:clickable="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:layout_marginBottom="15dp"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    app:cardBackgroundColor="#fff"
+                    app:cardCornerRadius="15dp"
+                    android:layout_marginTop="8dp"
+                    app:cardElevation="4dp">
 
                     <TextView
                         android:layout_width="match_parent"
@@ -37,18 +53,19 @@
             <androidx.cardview.widget.CardView android:layout_gravity="bottom" android:id="@+id/c2" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="175dp" android:layout_marginBottom="15dp" android:foreground="?attr/selectableItemBackground" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" app:cardBackgroundColor="#fff" app:cardCornerRadius="15dp" app:cardElevation="4dp">
                 <TextView android:textAppearance="@style/TextAppearance.AppCompat.Medium" android:textColor="#971b2a" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:layout_marginBottom="8dp" android:text="Chief Guest" android:fontFamily="@font/nunito_extrabold" android:layout_marginLeft="15dp" android:layout_marginRight="15dp"/>
                 <TextView android:textAppearance="@style/TextAppearance.AppCompat.Small" android:textColor="#677" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="50dp" android:text="@string/s4" android:fontFamily="@font/nunito_extrabold" android:layout_marginLeft="15dp" android:layout_marginRight="150dp"/>
-                <ImageView android:layout_gravity="end" android:layout_width="100dp" android:layout_height="match_parent" android:src="@drawable/c2" android:contentDescription="@string/hi" android:layout_marginRight="15dp"/>
-            </androidx.cardview.widget.CardView>
-            <androidx.cardview.widget.CardView android:layout_gravity="bottom" android:id="@+id/c22" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="175dp" android:layout_marginBottom="15dp" android:foreground="?attr/selectableItemBackground" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" app:cardBackgroundColor="#fff" app:cardCornerRadius="15dp" app:cardElevation="4dp">
-                <TextView android:textAppearance="@style/TextAppearance.AppCompat.Medium" android:textColor="#971b2a" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:layout_marginBottom="8dp" android:text="Guest of Honour" android:fontFamily="@font/nunito_extrabold" android:layout_marginLeft="15dp" android:layout_marginRight="15dp"/>
-                <TextView android:textAppearance="@style/TextAppearance.AppCompat.Small" android:textColor="#677" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="50dp" android:text="@string/s44" android:fontFamily="@font/nunito_extrabold" android:layout_marginLeft="15dp" android:layout_marginRight="150dp"/>
-                <ImageView android:layout_gravity="end" android:layout_width="100dp" android:layout_height="match_parent" android:src="@drawable/honour_new" android:contentDescription="@string/hi" android:layout_marginRight="15dp"/>
+                <ImageView android:layout_gravity="end" android:layout_width="100dp" android:layout_height="match_parent" android:src="@drawable/image_004" android:contentDescription="@string/hi" android:layout_marginRight="15dp"/>
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView android:layout_gravity="bottom" android:id="@+id/c12" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="150dp" android:layout_marginBottom="15dp" android:foreground="?attr/selectableItemBackground" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" app:cardBackgroundColor="#fff" app:cardCornerRadius="15dp" app:cardElevation="4dp">
                 <TextView android:textAppearance="@style/TextAppearance.AppCompat.Medium" android:textColor="#971b2a" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:layout_marginBottom="8dp" android:text="@string/s15" android:fontFamily="@font/nunito_extrabold" android:layout_marginLeft="15dp" android:layout_marginRight="15dp"/>
                 <TextView android:textAppearance="@style/TextAppearance.AppCompat.Small" android:textColor="#677" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="50dp" android:text="@string/s16" android:fontFamily="@font/nunito_extrabold" android:layout_marginLeft="15dp" android:layout_marginRight="150dp"/>
                 <ImageView android:layout_gravity="end" android:layout_width="100dp" android:layout_height="match_parent" android:src="@drawable/c12" android:contentDescription="@string/hi" android:layout_marginRight="15dp"/>
             </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView android:layout_gravity="bottom" android:id="@+id/c22" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="175dp" android:layout_marginBottom="15dp" android:foreground="?attr/selectableItemBackground" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" app:cardBackgroundColor="#fff" app:cardCornerRadius="15dp" app:cardElevation="4dp">
+                <TextView android:textAppearance="@style/TextAppearance.AppCompat.Medium" android:textColor="#971b2a" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:layout_marginBottom="8dp" android:text="Chief Guest&apos;s Address" android:fontFamily="@font/nunito_extrabold" android:layout_marginLeft="15dp" android:layout_marginRight="15dp"/>
+                <TextView android:textAppearance="@style/TextAppearance.AppCompat.Small" android:textColor="#677" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="50dp" android:text="@string/s44" android:fontFamily="@font/nunito_extrabold" android:layout_marginLeft="15dp" android:layout_marginRight="150dp"/>
+                <ImageView android:layout_gravity="end" android:layout_width="100dp" android:layout_height="match_parent" android:src="@drawable/san" android:contentDescription="@string/hi" android:layout_marginRight="15dp"/>
+            </androidx.cardview.widget.CardView>
+
             <androidx.cardview.widget.CardView android:layout_gravity="bottom" android:id="@+id/c5" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="100dp" android:layout_marginBottom="15dp" android:foreground="?attr/selectableItemBackground" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" app:cardBackgroundColor="#fff" app:cardCornerRadius="15dp" app:cardElevation="4dp">
                 <TextView android:textAppearance="@style/TextAppearance.AppCompat.Medium" android:textColor="#971b2a" android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/s7" android:fontFamily="@font/nunito_extrabold" android:layout_marginLeft="15dp" android:layout_marginRight="15dp"/>
                 <ImageView android:layout_gravity="end" android:layout_width="100dp" android:layout_height="match_parent" android:layout_marginTop="16dp" android:layout_marginBottom="16dp" android:src="@drawable/c5" android:contentDescription="@string/hi" android:layout_marginRight="15dp"/>

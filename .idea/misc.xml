@@ -4,10 +4,47 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/kownd/AndroidStudioProjects/ConvocationIITTP2021/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.16018518518518518" />
+        <entry key="..\:/Users/kownd/AndroidStudioProjects/ConvocationIITTP2021/app/src/main/res/drawable/background_fill.xml" value="0.20925925925925926" />
+        <entry key="..\:/Users/kownd/AndroidStudioProjects/ConvocationIITTP2021/app/src/main/res/drawable/background_seek.xml" value="0.1" />
+        <entry key="..\:/Users/kownd/AndroidStudioProjects/ConvocationIITTP2021/app/src/main/res/drawable/background_thumb.xml" value="0.12962962962962962" />
+        <entry key="..\:/Users/kownd/AndroidStudioProjects/ConvocationIITTP2021/app/src/main/res/drawable/bg_rounded_top.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/kownd/AndroidStudioProjects/ConvocationIITTP2021/app/src/main/res/drawable/bullet_1.xml" value="0.14629629629629629" />
         <entry key="..\:/Users/kownd/AndroidStudioProjects/ConvocationIITTP2021/app/src/main/res/drawable/ic_launcher_background.xml" value="0.16018518518518518" />
+        <entry key="..\:/Users/kownd/AndroidStudioProjects/ConvocationIITTP2021/app/src/main/res/drawable/indicator_selected.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/kownd/AndroidStudioProjects/ConvocationIITTP2021/app/src/main/res/drawable/indicator_selector.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/kownd/AndroidStudioProjects/ConvocationIITTP2021/app/src/main/res/drawable/progress.xml" value="0.20925925925925926" />
+        <entry key="..\:/Users/kownd/AndroidStudioProjects/ConvocationIITTP2021/app/src/main/res/drawable/progress_fill.xml" value="0.20925925925925926" />
+        <entry key="..\:/Users/kownd/AndroidStudioProjects/ConvocationIITTP2021/app/src/main/res/layout/activity_about_i_i_t_tirupati.xml" value="0.1" />
         <entry key="..\:/Users/kownd/AndroidStudioProjects/ConvocationIITTP2021/app/src/main/res/layout/activity_board_of_governors.xml" value="0.1" />
+        <entry key="..\:/Users/kownd/AndroidStudioProjects/ConvocationIITTP2021/app/src/main/res/layout/activity_chief_guest.xml" value="0.1" />
+        <entry key="..\:/Users/kownd/AndroidStudioProjects/ConvocationIITTP2021/app/src/main/res/layout/activity_civil_engineering.xml" value="0.1" />
+        <entry key="..\:/Users/kownd/AndroidStudioProjects/ConvocationIITTP2021/app/src/main/res/layout/activity_convocation_attire.xml" value="0.1" />
+        <entry key="..\:/Users/kownd/AndroidStudioProjects/ConvocationIITTP2021/app/src/main/res/layout/activity_convocation_committee.xml" value="0.1" />
+        <entry key="..\:/Users/kownd/AndroidStudioProjects/ConvocationIITTP2021/app/src/main/res/layout/activity_convocation_programme.xml" value="0.1" />
+        <entry key="..\:/Users/kownd/AndroidStudioProjects/ConvocationIITTP2021/app/src/main/res/layout/activity_cse.xml" value="0.1" />
+        <entry key="..\:/Users/kownd/AndroidStudioProjects/ConvocationIITTP2021/app/src/main/res/layout/activity_directors_report.xml" value="0.1" />
+        <entry key="..\:/Users/kownd/AndroidStudioProjects/ConvocationIITTP2021/app/src/main/res/layout/activity_electrical_engineering.xml" value="0.1" />
+        <entry key="..\:/Users/kownd/AndroidStudioProjects/ConvocationIITTP2021/app/src/main/res/layout/activity_graduands_list.xml" value="0.1" />
+        <entry key="..\:/Users/kownd/AndroidStudioProjects/ConvocationIITTP2021/app/src/main/res/layout/activity_guest_of_honour.xml" value="0.1" />
+        <entry key="..\:/Users/kownd/AndroidStudioProjects/ConvocationIITTP2021/app/src/main/res/layout/activity_institute_awards.xml" value="0.1" />
+        <entry key="..\:/Users/kownd/AndroidStudioProjects/ConvocationIITTP2021/app/src/main/res/layout/activity_intro.xml" value="0.2" />
+        <entry key="..\:/Users/kownd/AndroidStudioProjects/ConvocationIITTP2021/app/src/main/res/layout/activity_live_stream_page.xml" value="0.2" />
+        <entry key="..\:/Users/kownd/AndroidStudioProjects/ConvocationIITTP2021/app/src/main/res/layout/activity_main.xml" value="0.11548913043478261" />
+        <entry key="..\:/Users/kownd/AndroidStudioProjects/ConvocationIITTP2021/app/src/main/res/layout/activity_mathematics_statistics.xml" value="0.1" />
+        <entry key="..\:/Users/kownd/AndroidStudioProjects/ConvocationIITTP2021/app/src/main/res/layout/activity_mechanical_engineering.xml" value="0.22" />
         <entry key="..\:/Users/kownd/AndroidStudioProjects/ConvocationIITTP2021/app/src/main/res/layout/activity_our_logo.xml" value="0.1" />
+        <entry key="..\:/Users/kownd/AndroidStudioProjects/ConvocationIITTP2021/app/src/main/res/layout/activity_pledge.xml" value="0.1" />
+        <entry key="..\:/Users/kownd/AndroidStudioProjects/ConvocationIITTP2021/app/src/main/res/layout/activity_senate.xml" value="0.1" />
         <entry key="..\:/Users/kownd/AndroidStudioProjects/ConvocationIITTP2021/app/src/main/res/layout/activity_splash.xml" value="0.1" />
+        <entry key="..\:/Users/kownd/AndroidStudioProjects/ConvocationIITTP2021/app/src/main/res/layout/content_scrolling.xml" value="0.11820652173913043" />
+        <entry key="..\:/Users/kownd/AndroidStudioProjects/ConvocationIITTP2021/app/src/main/res/layout/display.xml" value="0.18333333333333332" />
+        <entry key="..\:/Users/kownd/AndroidStudioProjects/ConvocationIITTP2021/app/src/main/res/layout/fragment_contacts.xml" value="0.1" />
+        <entry key="..\:/Users/kownd/AndroidStudioProjects/ConvocationIITTP2021/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Users/kownd/AndroidStudioProjects/ConvocationIITTP2021/app/src/main/res/layout/fragment_info.xml" value="0.2" />
+        <entry key="..\:/Users/kownd/AndroidStudioProjects/ConvocationIITTP2021/app/src/main/res/layout/fragment_live_stream.xml" value="0.2" />
+        <entry key="..\:/Users/kownd/AndroidStudioProjects/ConvocationIITTP2021/app/src/main/res/layout/layout_screen.xml" value="0.2" />
+        <entry key="..\:/Users/kownd/AndroidStudioProjects/ConvocationIITTP2021/app/src/main/res/layout/old_activity_institute_awards.xml" value="0.21197916666666666" />
+        <entry key="..\:/Users/kownd/AndroidStudioProjects/ConvocationIITTP2021/app/src/main/res/mipmap-anydpi-v26/ic_launcher3.xml" value="0.21614583333333334" />
       </map>
     </option>
   </component>

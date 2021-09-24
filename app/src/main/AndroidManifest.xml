@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.dell.convocation_iittp_2021">
-
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,7 +9,63 @@
         android:roundIcon="@mipmap/ic_launcher3_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ConvocationIITTP2021">
-        <activity android:name=".Splash">
+        <activity
+            android:name=".LiveStreamPage"
+            android:screenOrientation="portrait"
+            android:exported="true" />
+        <activity
+            android:name=".Splash"
+            android:screenOrientation="portrait"
+            android:exported="true"
+            android:noHistory="true"/>
+        <activity
+            android:name=".Mathematics_Statistics"
+            android:screenOrientation="portrait"
+            android:exported="true" />
+        <activity
+            android:name=".ElectricalEngineering"
+            android:screenOrientation="portrait"
+            android:exported="true" />
+        <activity
+            android:name=".CSE"
+            android:screenOrientation="portrait"
+            android:exported="true" />
+        <activity
+            android:name=".MechanicalEngineering"
+            android:screenOrientation="portrait"
+            android:exported="true" />
+        <activity
+            android:name=".GraduandsList"
+            android:screenOrientation="portrait"
+            android:exported="true" />
+        <activity
+            android:name=".ChiefGuestsAddress"
+            android:screenOrientation="portrait"
+            android:exported="true" />
+        <activity
+            android:name=".ConvocationCommittee"
+            android:screenOrientation="portrait"
+            android:exported="true" />
+        <activity
+            android:name=".InstituteAwards"
+            android:screenOrientation="portrait"
+            android:exported="true" />
+        <activity
+            android:name=".DirectorsReport"
+            android:screenOrientation="portrait"
+            android:exported="true" />
+        <activity
+            android:name=".Senate"
+            android:screenOrientation="portrait"
+            android:exported="true" />
+        <activity
+            android:name=".ConvocationProgramme"
+            android:screenOrientation="portrait"
+            android:exported="true" />
+        <activity
+            android:name=".IntroActivity"
+            android:screenOrientation="portrait"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,31 +73,37 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".BoardOfGovernors"
+            android:name=".AboutIITTirupati"
+            android:screenOrientation="portrait"
             android:configChanges="uiMode" />
         <activity
-            android:name=".AboutIITTirupati"
+            android:name=".CivilEngineering"
+            android:screenOrientation="portrait"
             android:configChanges="uiMode" />
         <activity
             android:name=".ConvocationAttire"
+            android:screenOrientation="portrait"
             android:configChanges="uiMode" />
         <activity
             android:name=".Pledge"
+            android:screenOrientation="portrait"
             android:configChanges="uiMode" />
         <activity
-            android:name=".Senate"
+            android:name=".BoardOfGovernors"
+            android:screenOrientation="portrait"
             android:configChanges="uiMode" />
         <activity
             android:name=".OurLogo"
+            android:screenOrientation="portrait"
             android:configChanges="uiMode" />
         <activity
-            android:name=".DirectorsReport"
+            android:name=".ChiefGuest"
+            android:screenOrientation="portrait"
             android:configChanges="uiMode" />
         <activity
             android:name=".MainActivity"
-            android:configChanges="uiMode">
-
-        </activity>
+            android:screenOrientation="portrait"
+            android:configChanges="uiMode" />
     </application>
 
 </manifest>

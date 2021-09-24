@@ -1,6 +1,7 @@
 package com.dell.convocation_iittp_2021;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatDelegate;
 import androidx.fragment.app.Fragment;
 
 import android.app.Notification;
@@ -18,24 +19,30 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
         setContentView(R.layout.activity_main);
         getSupportActionBar().hide();
         bottomNavigation = findViewById(R.id.bottomNavigation);
-        bottomNavigation.add(new MeowBottomNavigation.Model(1,R.drawable.ic_info));
-        bottomNavigation.add(new MeowBottomNavigation.Model(2,R.drawable.ic_home));
-        bottomNavigation.add(new MeowBottomNavigation.Model(3,R.drawable.ic_contacts));
+        bottomNavigation.add(new MeowBottomNavigation.Model(1,R.drawable.ic_home));
+        bottomNavigation.add(new MeowBottomNavigation.Model(2,R.drawable.ic_info));
+        bottomNavigation.add(new MeowBottomNavigation.Model(3,R.drawable.ic_baseline_live_tv_24));
+        bottomNavigation.add(new MeowBottomNavigation.Model(4,R.drawable.ic_contacts));
         bottomNavigation.setOnShowListener(new MeowBottomNavigation.ShowListener() {
             @Override
             public void onShowItem(MeowBottomNavigation.Model item) {
                 Fragment fragment = null;
                 switch (item.getId()){
-                    case 1:
+                    case 2:
                         fragment = new InfoFragment();
                         break;
-                    case 2:
+                    case 1:
                         fragment = new HomeFragment();
                         break;
                     case 3:
+                        fragment = new LiveStream();
+                        break;
+                    case 4:
                         fragment = new ContactsFragment();
                         break;
                 }
@@ -45,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
 //        requestWindowFeature(Window.FEATURE_NO_TITLE);
 //        this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
 //        bottomNavigation.setCount(1,"14");
-        bottomNavigation.show(2,true);
+        bottomNavigation.show(1,false);
 
         bottomNavigation.setOnClickMenuListener(new MeowBottomNavigation.ClickListener() {
             @Override
@@ -65,5 +72,11 @@ public class MainActivity extends AppCompatActivity {
     private void loadFragment(Fragment fragment) {
         getSupportFragmentManager().beginTransaction().replace(R.id.frameLayout,fragment).commit();
 
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        finish();
     }
 }
